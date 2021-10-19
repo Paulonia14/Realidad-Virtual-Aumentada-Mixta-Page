@@ -1,0 +1,270 @@
+body {
+	font-family: "Arial";
+	font-size: 19px;
+	background-color: rgba(163,224,255,0.3);
+	margin:0;
+	padding:0;
+}
+#Banner {
+	background-image: url(https://blog.linio.com.mx/wp-content/uploads/2019/01/lentes-vr-725x375.jpg);
+	background-size:cover;
+	background-position: center;
+	padding:280px 0;
+	text-align: center;
+	height: 150px;
+	box-shadow: 6px 6px 6px rgb(0,0,0,0.6);
+}
+#BannerContent{
+	background-color: rgba(122,222,255,0.3);
+	border: 2px solid rgb(0,0,0);
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+    top: 10px;
+    left: 10px;
+    width: 50%;
+    color: rgb(0,0,0);
+    font-size: 20px;
+    box-shadow: 0px 7px 7px rgb(0,0,0);
+}
+.Box {
+	background-color: rgba(163,224,255,0.5);
+	border: 2px rgba(0,0,0,0.3) solid;
+	padding: 18px;
+	margin-right:250px;
+	margin-left: 250px;
+	margin-top:0px;
+	margin-bottom: 0px;
+	text-align: center;
+	box-shadow: 2px 2px 2px rgb(217,217,217,0.2);
+	line-height: 20pt;
+	border-top-width: 0px;
+	text-align: center;
+}
+h2 {
+	font-size: 35px;
+}
+img {
+    max-width: 100%;
+}
+
+a {
+	color: blue;
+}
+a:hover {
+	color: rgb(64,0,143);
+	transition: color 0.4s ease;
+}
+.ImgRealidades {
+	width: 1300px;
+	height: 700px;
+}
+.Parrafos {
+	padding-left: 14px;
+	padding-right: 14px;
+}
+#ImagenCascos{
+	width:950px ; 
+	height:500px;
+}
+#ImagenLentes{
+	width:700px ; 
+	height:400px;
+}
+#ImgHoloLens {
+	width:600px ; 
+	height:350px;
+}
+
+iframe {
+	width: 1000px;
+	height: 600px;
+
+}
+@media (max-width: 1531px) {
+	
+	iframe {
+	width: 800px;
+	height: 600px;
+
+	}
+}
+
+@media (max-width: 1327px) {
+	
+	iframe {
+	width: 600px;
+	height: 500px;
+
+	}
+}
+
+@media (max-width: 1190px) {
+
+	.Box {
+		width: 700px;
+		height: auto;
+		margin-left:200px;
+		margin-right:2000px;
+	}
+	#BannerContent {
+		font-size: 18px;
+	}
+	.ImgRealidades {
+	width: 1300px;
+	height: 600px;
+	}
+	#ImagenCascos{
+	width:900px ; 
+	height:400px;
+	}
+
+}
+
+@media (max-width: 960px) {
+
+	.Box {
+		width: 700px;
+		height: auto;
+		margin-left:100px;
+		margin-right:100px;
+	}
+	#Banner {
+		height:100px;
+	}
+	#BannerContent {
+		font-size: 18px;
+	}
+	.ImgRealidades {
+	width: 1300px;
+	height: 500px;
+	}
+	#ImagenCascos{
+	width:800px ; 
+	height:400px;
+	}
+	#ImagenLentes{
+	width:600px ; 
+	height:350px;
+	}
+	#ImgHoloLens {
+	width:420px ; 
+	height:300px;
+	}
+
+}
+
+@media (max-width: 863px) {
+
+	.Box {
+		width: 600px;
+		height: auto;
+		margin-left:100px;
+		margin-right:100px;
+	}
+	#BannerContent {
+		font-size: 14px;
+	}
+	#Banner {
+		background-size:cover;
+	}
+}
+
+@media (max-width: 763px) {
+
+	body{
+		font-size: 16px;
+	}
+	h2 {
+	font-size: 31px;
+	}
+	.Box {
+		width: 550px;
+		height: auto;
+		margin-left:80px;
+		margin-right:80px;
+	}
+	#BannerContent {
+		font-size: 13px;
+	}
+	iframe {
+	width: 450px;
+	height: 300px;
+
+	}
+	.ImgRealidades {
+	width: 1000px;
+	height: 400px;
+	}
+	#ImagenCascos{
+	width:750px ; 
+	height:350px;
+	}
+	#ImagenLentes{
+	width:500px ; 
+	height:250px;
+	}
+	#ImgHoloLens {
+	width:350px ; 
+	height:250px;
+	}
+	#Banner {
+		height:40px;
+	}
+
+}
+
+
+@media (max-width: 676px) {
+
+	.Box {
+		width: 450px;
+		height: auto;
+		margin-left:60px;
+		margin-right:60px;
+	}
+	#BannerContent {
+		font-size: 10px;
+	}
+}
+@media (max-width: 556px) {
+	body{
+		font-size: 15px;
+	}
+	h2 {
+	font-size: 29px;
+	}
+	.Box {
+		width: 380px;
+		height: auto;
+		margin-left:40px;
+		margin-right:40px;
+	}
+	#BannerContent {
+		font-size: 10px;
+	}
+	iframe {
+	width: 300px;
+	height: 250px;
+
+	}
+	.ImgRealidades {
+	width: 900px;
+	height: 300px;
+	}
+	#ImagenCascos{
+	width:600px ; 
+	height:250px;
+	}
+	#ImagenLentes{
+	width:350px ; 
+	height:230px;
+	}
+	#ImgHoloLens {
+	width:270px ; 
+	height:180px;
+	}
+	#Banner {
+		height:10px;
+	}
+}
